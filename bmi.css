@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:white;
+    text-align: center;
+    min-height: 100vh;
+
+    
+}
+.card{
+    margin:10px;
+    padding:20px;
+    position: center;
+}
+
+h2{
+    color:rgb(0, 247, 255);
+    font-family: 'serif';
+    font-size: 25px;
+    align-content: center;
+    display:inline-block;
+    text-shadow: 1px 2px 15px rgb(128, 26, 0);
+}
+div{
+    width: 500px;
+    left:10%;
+    top:10%;
+    position:absolute;
+    border-radius: 5%;
+    background-color:rgba(43, 61, 226, 0.603);
+    box-shadow: 1px 2px 15px green;
+    
+}
+#result{
+    color:rgb(13, 255, 0);
+    font-family: 'serif';
+    
+
+}
+input, button{
+border-radius:5px;
+box-shadow: 1px 2px 15px green;
+font-family: 'serif';
+background-color: bisque;
+}
+
+footer{
+    
+    color: rgb(189, 49, 30);
+    font-size: 15px;
+    right:20%;
+    
+   
+}

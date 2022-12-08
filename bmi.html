@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bmi.css" type="text/css">
+   
+    <title>Bmi-Calculator</title>
+</head>
+
+
+<body>
+    <div class="card">
+    <h2>BMI-Calculator</h2>
+
+    <p>Weight</p>
+    <input type="number" id="weight" placeholder="in (Kg) please!" required>
+
+
+
+    <p>Height</p>
+    <input type="number" id="height" placeholder="in (cm) please!" required>
+    
+
+    <p id="result"></p> <br>
+    <button id="btn" onClick="calculateBmi()">Calculate</button>
+    <br><br>
+    
+   
+    <input id="ind" onClick="calculateBmi()" placeholder="Indicator">
+   
+
+        <footer class="d-flex justify-content-end">
+            <p class="mt-3">© WJD </p>
+          </footer>   
+    
+</div>
+
+
+<script src="./bmi.js"></script>
+</body>
+
+</html>
